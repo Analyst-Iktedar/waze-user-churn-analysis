@@ -20,7 +20,7 @@ Inspect user behavioural data to identify meaningful relationships between varia
 
 | Property | Details |
 |---|---|
-| Total Variables | 12 (objects, floats, integers) |
+| Total Variables | 13 (objects, floats, integers) |
 | Class Split | 82% Retained / 18% Churned |
 | Missing Values | 700 missing values in the `label` column (possibly non-random) |
 
@@ -32,7 +32,7 @@ Inspect user behavioural data to identify meaningful relationships between varia
 - **Retained users were more consistent** — they used the app on over twice as many days as churned users in the last month.
 - **Churned users covered more ground** — the median churned user drove ~200 more kilometres and logged 2.5 more hours than the median retained user.
 - **Churned users show a "super-driver" profile** — more drives, in fewer days, with farther and longer individual trips.
-- **Extreme per-day distance** — the median churned user drove **608 km per drive day**, nearly 250% the per-drive-day distance of retained users.
+- **Extreme per-day distance** — the median churned user drove **698 km per drive day**, nearly 240% the per-drive-day distance of retained users.
 - **Dataset caveat** — regardless of churn status, the users in this dataset are heavy drivers. This data likely does not represent the typical driver population at large.
 
 ---
